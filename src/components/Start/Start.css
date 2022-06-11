@@ -1,0 +1,108 @@
+.mainContainer,
+.mainContainerArabic {
+  display: flex;
+  padding: 10vh 10vw;
+}
+
+.mainContainerArabic {
+  flex-direction: row-reverse;
+}
+
+.mainTitle {
+  flex: 1.2;
+}
+
+.mainTitleArabic {
+  flex: 1.2;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.h1Title {
+  font-size: 58px;
+}
+
+.paragraphTitle {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.StartButton {
+  cursor: pointer;
+  border: 1px solid #6B2CE2;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 23px;
+  color: white;
+  background: #6B2CE2;
+}
+
+@media screen and (max-width: 580px) {
+  .mainContainer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2vh 5vw;
+  }
+
+  .StartButton {
+    font-size: 11px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .mainTitle {
+    font-size: 40px;
+  }
+
+  .paragraphTitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .StartButton {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .paragraphTitle {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .StartButton {
+    font-size: 12px;
+    padding: 9px;
+  }
+
+  .paragraphTitle {
+    font-size: 12px;
+  }
+
+  .h1Title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .StartButton {
+    font-size: 11px;
+    padding: 9px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .paragraphTitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .imageContainer {
+    margin-top: 2%;
+  }
+}

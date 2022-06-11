@@ -1,0 +1,9 @@
+.arrow {
+  cursor: pointer;
+  position: fixed;
+  right: 3vw;
+  bottom: 3vh;
+}
+.removeArrow {
+  display: none;
+}

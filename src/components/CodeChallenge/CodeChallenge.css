@@ -1,0 +1,89 @@
+.codeChallengeContainer {
+  padding: 15vh 10vw 10vh 10vw;
+}
+.iconsSection,
+.iconsSectionArabic {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconsSectionArabic {
+  flex-direction: row-reverse;
+}
+
+.iconsSection {
+  display: flex;
+}
+.codeChallengeBox {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.codeChallengeTitle,
+.codeChallengeTitleArabic {
+  font-size: 45px;
+}
+
+.codeChallengeTitleArabic {
+  text-align: right;
+}
+
+.codeChallengeUnderline {
+  width: 60px;
+}
+.iconsContainer {
+  flex: 30%;
+  padding: 2% 1%;
+  text-align: center;
+}
+
+.icons {
+  font-size: 40px;
+  color: gray;
+}
+
+@media screen and (max-width: 990px) {
+  .codeChallengeTitle,
+  .codeChallengeTitleArabic {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .codeChallengeTitle,
+  .codeChallengeTitleArabic {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .codeChallengeBox {
+    width: 85%;
+  }
+
+  .codeChallengeTitle,
+  .codeChallengeTitleArabic {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .codeChallengeContainer {
+    padding: 2vh 5vw;
+  }
+
+  .iconsSection {
+    margin-top: 2vh;
+  }
+}
+@media screen and (max-width: 635px) {
+  .iconsContainer {
+    flex: 40%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .iconText {
+    font-size: 13px;
+  }
+}

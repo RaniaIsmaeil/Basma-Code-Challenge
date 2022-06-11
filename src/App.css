@@ -1,0 +1,98 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10vh 3vw;
+}
+.poly,
+.polyArabic {
+  position: absolute;
+  right: 3vw;
+  top: 8vh;
+  z-index: -1;
+  clip-path: polygon(42% 0, 100% 0, 100% 31%, 70% 52%);
+  width: 100%;
+  height: 165vh;
+  background: #6b2ce2;
+}
+
+.polyArabic {
+  left: 3vw;
+  width: unset;
+  z-index: -1;
+  clip-path: polygon(0 0, 55% 0, 30% 49%, 0 35%);
+}
+
+.image {
+  width: 300px;
+  padding: 0 5%;
+}
+
+.image2 {
+  width: 200px;
+}
+
+.image3 {
+  width: 245px;
+  padding: 0 5%;
+}
+
+@media screen and (max-width: 800px) {
+  .poly,
+  .polyArabic {
+    height: 150vh;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .image2 {
+    width: 150px;
+  }
+
+  .image3 {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .App {
+    padding: 8vh 3vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .poly,
+  .polyArabic {
+    height: 120vh;
+  }
+
+  .image {
+    width: 185px;
+  }
+
+  .image2 {
+    width: 130px;
+  }
+
+  .image3 {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .poly {
+    clip-path: polygon(22% 0, 100% 0, 100% 21%, 55% 35%);
+    width: 100%;
+    height: 165vh;
+  }
+
+  .image2 {
+    width: 130px;
+  }
+  .image3 {
+    width: 200px;
+  }
+  .polyArabic {
+    clip-path: polygon(0 0, 60% 0, 30% 39%, 0 25%);
+  }
+}

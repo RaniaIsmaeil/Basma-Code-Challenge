@@ -1,0 +1,78 @@
+.toolsContainer {
+  display: flex;
+  padding: 10vh 10vw;
+  background-color: #f6f9fe;
+}
+.imageContainerArabic {
+  margin-right: 5%;
+}
+.infoContainer {
+  padding: 0 10vw;
+}
+.iconButtons,
+.iconButtonsArabic {
+  padding: 12px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #7c4fdf;
+  font-size: larger;
+  border: 1px solid #d8cfcf;
+  box-shadow: 1px 1px 10px #b4b3b3;
+  margin-right: 3%;
+}
+
+.iconButtonsArabic {
+  margin-left: 3%;
+}
+@media screen and (max-width: 580px) {
+  .toolsContainer {
+    flex-direction: column-reverse;
+    padding: 2vh 5vw;
+    text-align: center;
+  }
+  .imageContainer {
+    margin-top: 2%;
+  }
+}
+
+.toolContainer,
+.toolContainerArabic {
+  display: flex;
+  align-items: center;
+}
+
+.toolContainerArabic {
+  flex-direction: row-reverse;
+}
+
+.toolCheckIcon,
+.toolCheckIconArabic {
+  width: 15px;
+  margin-right: 2%;
+}
+
+.toolCheckIconArabic {
+  margin-left: 2%;
+}
+.iconButtonContainer,
+.iconButtonContainerArabic {
+  display: flex;
+}
+.iconButtonContainerArabic {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 1000px) {
+  .infoContainer {
+    padding: 0 5vw;
+  }
+}
+@media screen and (max-width: 650px) {
+  .toolCheckIcon {
+    width: 12px;
+  }
+  .iconButtons,
+  .iconButtonsArabic {
+    padding: 5px 7px;
+    font-size: 12px;
+  }
+}

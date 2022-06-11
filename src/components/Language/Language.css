@@ -1,0 +1,18 @@
+.language {
+    display: flex;
+    position: fixed;
+    left: 3vw;
+    bottom: 3vh;
+  }
+  .languageContainer {
+    margin-right: 15%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #8d8895;
+    color:white;
+  }
+  .languageName {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

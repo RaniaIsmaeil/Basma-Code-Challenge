@@ -1,0 +1,44 @@
+.applicationContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 10vw;
+  background: linear-gradient(rgba(24, 22, 51, 0.7), rgba(29, 25, 78, 0.7)),
+    url("../../assets/download-bg.jpeg");
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.appPlay {
+  display: flex;
+}
+
+.availabilityText {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.playAppContainer {
+  margin: 0 1%;
+}
+
+.playAppImage {
+  width: 200px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .availabilityText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .applicationContainer {
+    padding: 2vh 5vw;
+  }
+  .playAppImage {
+    width: 120px;
+  }
+}

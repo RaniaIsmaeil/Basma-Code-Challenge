@@ -1,0 +1,48 @@
+.InfoSectionContainer,
+.InfoSectionContainerArabic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.learnMoreButton {
+    cursor: pointer;
+    border: 1px solid #6B2CE2;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 23px;
+    color: white;
+    background: #6B2CE2;
+  }
+
+.InfoSectionContainerArabic {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 800px) {
+    .learnMoreButton {
+      font-size: 13px;
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .learnMoreButton {
+      font-size: 12px;
+      padding: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .learnMoreButton {
+      font-size: 11px;
+      padding: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    .learnMoreButton {
+      font-size: 11px;
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,93 @@
+.setupStepsContainer {
+  background: linear-gradient(to bottom right, #682de2, #873ee8);
+  padding: 10vh 10vw;
+}
+.setupStepsTitleDiv {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.setupStepsTitle {
+  font-size: 45px;
+  color: white;
+}
+
+.setupStepsTitleText {
+  font-size: 15px;
+  color: white;
+}
+.setupStepsBoxDiv,
+.setupStepsBoxDivArabic {
+  display: flex;
+  margin-top: 5%;
+}
+
+.setupStepsBoxDivArabic {
+  flex-direction: row-reverse;
+}
+
+.setupStepContent {
+  text-align: center;
+}
+
+.setupStepTitle {
+  color: white;
+}
+
+.setupStepIcon {
+  width: 65px;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.arrowIcon {
+  font-size: 40px;
+}
+@media screen and (max-width: 580px) {
+  .setupStepsContainer {
+    padding: 2vh 5vw;
+  }
+}
+@media screen and (max-width: 910px) {
+  .setupStepsTitle {
+    font-size: 40px;
+  }
+
+  .setupStepsTitleText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .setupStepsTitle {
+    font-size: 30px;
+  }
+
+  .setupStepsTitleText {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .setupStepsTitle {
+    font-size: 25px;
+  }
+
+  .setupStepsTitleText {
+    font-size: 12px;
+  }
+  .setupStepIcon {
+    width: 40px;
+  }
+  .setupStepTitle {
+    font-size: 16px;
+  }
+  .arrowIcon {
+    font-size: 20px;
+  }
+}

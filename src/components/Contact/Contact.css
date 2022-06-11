@@ -1,0 +1,95 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    background-color: #f6f9fe;
+  }
+  
+  .contactContent,
+  .contactContentArabic {
+    display: flex;
+    padding-top: 5vh;
+  }
+  
+  .contactContentArabic {
+    flex-direction: row-reverse;
+  }
+
+.informationContainer,
+.informationContainerArabic {
+  flex: 1;
+  padding-right: 10%;
+}
+
+.informationContainerArabic {
+  padding-left: 10%;
+  padding-right: 0;
+}
+
+
+.contactInfoContainer, .contactInfoContainerArabic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.contactInfoContainerArabic {
+  flex-direction: row-reverse;
+}
+
+.contactInfoImage, .contactInfoImageArabic {
+  width: 20px;
+  padding: 11px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 10px #b4b3b3;
+  background-color: #682de2;
+  margin-right: 3%;
+}
+
+.contactInfoImageArabic {
+  margin-left: 3%;
+}
+.formContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput::placeholder {
+  text-align: left !important;
+}
+
+.formInputArabic::placeholder {
+  text-align: right !important;
+}
+  @media screen and (max-width: 580px) {
+    .contactContainer {
+      padding: 2vh 5vw;
+    }
+  
+    .contactContent,
+    .contactContentArabic {
+      padding-top: 2vh;
+      flex-direction: column;
+      align-items: center;
+    }
+    .formContainer {
+      margin-top: 2%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .contactInfoImage, .contactInfoImageArabic {
+      width: 15px;
+      padding: 10px 12px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .contactInfoImage, .contactInfoImageArabic {
+      width: 11px;
+      padding: 7px;
+    }
+  }
+  
