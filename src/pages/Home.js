@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import Application from "../components/Application/Application";
 import Arrow from "../components/Arrow/Arrow";
 import CodeChallenge from "../components/CodeChallenge/CodeChallenge";
